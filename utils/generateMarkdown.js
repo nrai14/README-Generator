@@ -11,6 +11,17 @@ ${data.description}
 
 ## Table of Contents 
 
+* Description
+* Usage
+* License ${generateBadge(data.license)}
+* Contributing
+* Tests
+* Questions 
+*
+
+## Installation
+
+${data.installation}
 
 ## Usage
 
@@ -18,8 +29,8 @@ ${data.usage}
 
 ## License
 
-${data.license}
-${generateBadge(data.license)}
+The application is covered under the ${data.license} license.
+
 
 ## Contributing
 
@@ -30,10 +41,6 @@ ${generateBadge(data.license)}
 ## Questions 
 
 
-
-## Installation
-
-N/A 
 
 
 
