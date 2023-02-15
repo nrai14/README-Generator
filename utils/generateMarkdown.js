@@ -2,8 +2,7 @@
 function generateMarkdown(data) {
 
   return `
-  ${data.title}
-
+# ${data.title}
 
 ## Description
 
@@ -11,13 +10,14 @@ ${data.description}
 
 ## Table of Contents 
 
-* Description
-* Usage
-* License ${generateBadge(data.license)}
-* Contributing
-* Tests
-* Questions 
-*
+* [description](##description)
+* [installation] (##installation)
+* [usage] (##usage)
+* [license] (##license) ${generateBadge(data.license)}
+* [contributing] (##contributing)
+* [tests] (##tests)
+* [questions] (##questions) 
+
 
 ## Installation
 
