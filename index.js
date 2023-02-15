@@ -33,7 +33,7 @@ inquirer
       type: "list",
       name: "license",
       message: "What license does this application use?",
-      choices: ["MIT", "ISC", "zLib", "Apache"]
+      choices: ["MIT", "ISC", "Apache"]
   },
   ])
   .then((answers) => {

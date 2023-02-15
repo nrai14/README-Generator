@@ -39,10 +39,3 @@ node index.js
     * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-* Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-* Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.

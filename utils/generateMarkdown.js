@@ -1,34 +1,41 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
-  // return `# ${data.title}
-  
-  // ## ${data.description}
+
   return `
-  # BingeBuddies
+  ${data.title}
 
 
 ## Description
+
 ${data.description}
 
+## Table of Contents 
+
+
 ## Usage
+
 ${data.usage}
 
-## Features
+## License
 
-Random Top pick of the day TV show
-Search according to the genres
-Favourites list
-Watch full trailer on full screen mode
+${data.license}
+${generateBadge(data.license)}
+
+## Contributing
+
+
+## Tests
+
+
+## Questions 
+
+
 
 ## Installation
 
 N/A 
 
 
-## Credits
-
-1. https://developers.google.com/youtube/v3 - With the YouTube Data API, you can add a variety of YouTube features to your application. Use the API to upload videos, manage playlists and subscriptions, update channel settings, and more.
-2. https://www.themoviedb.org/ -The API service is for those of you interested in using movie, TV show or actor images and/or data in your application. The API is a system we provide for you and your team to programmatically fetch and use our data and/or images.
 
 Github handles:
 1. [sanjana-1604](https://github.com/sanjana-1604)
@@ -36,38 +43,29 @@ Github handles:
 3. [nrai14](https://github.com/nrai14) 
 4. [lauralp92](https://github.com/lauralp92)
 
-## License
-
-${generateBadge(data.license)}
-
-Copyright (c) 2022 Sabrina Martorelli
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
 
 
 ## Deployed Link
-https://sabrina-martorelli.github.io/BingeBuddies/`
+
+*Please add deployed link here*
   
   
   
   ;
 }
+`
 
 function generateBadge(license) {
   if (license === 'MIT') {
-    return //badge string - how to display badge in markdown file 
+    return "[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
   }
-  else if (license === ' ') {
-    return // another badge string
+  else if (license === 'ISC') {
+    return "[![ISC License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
 }
   else {
-    return //final one 
+    return "[![Apache License](https://img.shields.io/badge/license-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
   }
 }
 
+}
 module.exports = generateMarkdown;
