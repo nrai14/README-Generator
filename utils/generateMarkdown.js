@@ -13,13 +13,6 @@ ${data.description}
 ## Usage
 ${data.usage}
 
-## Screenshot
-
-![screenshot](assets/images/Screenshot1.png)
-![screenshot2](assets/images/Screenshot2.png)
-![screenshot3](assets/images/Screenshot3.png)
-![screenshot4](assets/images/Screenshot4.png)
-
 ## Features
 
 Random Top pick of the day TV show

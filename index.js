@@ -72,23 +72,3 @@ function init() {
 init();
 
 
-// let content = answers.title
-
-
-/* Has to include:
-
-- Title
-- Description 
-
-
-- Table of Contents
-- Installation
-- Usage
-- License (list of options then badge for license is added near the top of the READMe and a notice is added to the section of the README entitled license that explains which license the applicaiton is covered under)
-- When a user enters their GitHub username then this is added to the section of the README entitled Questions, with a link to their GitHub profile
-- When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
-- When a user clicks on the links in the Table of Contents then they are taken to the corresponding section of the README
-
-*/
-
-// if statement function for basdge
