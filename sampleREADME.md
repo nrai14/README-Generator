@@ -8,12 +8,12 @@ Anonymously report incidents of littering in your neighbourhood
 ## Table of Contents 
 
 * [Description](#description)
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [License] (#license) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-* [Contributing] (#contributing)
-* [Tests] (#tests)
-* [Questions] (#questions) 
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions) 
 
 
 ## Installation

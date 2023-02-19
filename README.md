@@ -1,16 +1,29 @@
 # Professional README Generator
 
-## Overview
+## Description
 
 A key best practice when creating an open source project on GitHub is to have a high-quality README for the app. I created this app to help users follow these best practices by allowing them to conveniently input the name of the app, what the app is for, how to use/install it, how to report issues and finally how to make contributions. This application was created using JavaScript, Node js and Inquirer. 
 
-## Usage 
+## Table of Contents 
+
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license) [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions) 
+
+## Installation 
 
 The following are required to use this application:
 
 * Node.js
 * Inquirer NPM Package (Version 8.2.5)
 * Clone this repository 
+
+
+## Usage 
 
 You can quickly and easily create a README file by using a command-line application to generate one. 
 
@@ -57,15 +70,21 @@ You will be prompted to input data in order to generate your personalised README
 
 ## License
 
-MIT License 
+MIT License [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
 
 N/A
 
+## Tests
+
+N/A
+
 ## Questions
 
-Please contact me: nishadrai14@gmail.com
+Please contact me: 
+* GitHub Username: nrai14
+* Email: nishadrai14@gmail.com
 
 ## Links
 
