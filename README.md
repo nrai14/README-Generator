@@ -2,7 +2,7 @@
 
 ## Overview
 
-A key best practice when creating an open source project on GitHub is to have a high-quality README for the app. I created this app to help a user follow these best practices by allowing them to conveniently input the name of the app, what the app is for, how to use/install it, how to report issues and finally how to make contributions. This application was created using JavaScript, Node js and Inquirer. 
+A key best practice when creating an open source project on GitHub is to have a high-quality README for the app. I created this app to help users follow these best practices by allowing them to conveniently input the name of the app, what the app is for, how to use/install it, how to report issues and finally how to make contributions. This application was created using JavaScript, Node js and Inquirer. 
 
 ## Usage 
 
@@ -33,7 +33,7 @@ You will be prompted to input data in order to generate your personalised README
   * When a user is prompted for information about the application repository then a high-quality, professional README.md is generated with:
     * The title of my project 
     * Sections entitled:
-      * Description (DONE)
+      * Description 
       * Table of Contents 
       * Installation 
       * Usage 
@@ -52,8 +52,8 @@ You will be prompted to input data in order to generate your personalised README
 
 ## Credits 
 
-https://www.npmjs.com/ - NPM Package Inquirer 
-https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide - Best practice guide for creating high-quality README 
+* https://www.npmjs.com/ - NPM Package Inquirer 
+* https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide - Best practice guide for creating high-quality README 
 
 ## License
 
