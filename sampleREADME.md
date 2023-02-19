@@ -1,9 +1,9 @@
 
-# FaceBook
+# Littr
 
 ## Description
 
-Social Media App to help people connect with friends and family
+Anonymously report incidents of littering in your neighbourhood
 
 ## Table of Contents 
 
@@ -18,11 +18,11 @@ Social Media App to help people connect with friends and family
 
 ## Installation
 
-You download via appstore or log in via browser
+Download the app (iOS/Android) or log in via browser
 
 ## Usage
 
-You create an account and upload profile pic, add friends and chat via messenger
+Use the pinning tool on the virtual map to report areas of littering
 
 ## License
 
@@ -31,7 +31,7 @@ The application is covered under the MIT license.
 
 ## Contributing
 
-Hmm... no.
+N/A
 
 
 ## Tests
@@ -42,8 +42,8 @@ N/A
 ## Questions 
 
 If you have any questions, please feel free to reach out:
-* GitHub username: MarkTheZucc (https://github.com/MarkTheZucc)  
-* Email address: MotherZucker@facebook.com
+* GitHub username: freddyjones123 (https://github.com/freddyjones123)  
+* Email address: fredj@rocketmail.com
 
   
 

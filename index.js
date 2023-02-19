@@ -49,7 +49,7 @@ inquirer
 },{
   type: "input",
   name: "email",
-  message: "If a user has questions, what is your email address?"
+  message: "If a user has questions, what is your email"
 },
   ])
   .then((answers) => {
