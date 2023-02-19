@@ -34,7 +34,23 @@ inquirer
       name: "license",
       message: "What license does this application use?",
       choices: ["MIT", "ISC", "Apache"]
-  },
+  },{
+    type: "input",
+    name: "contributing",
+    message: "Were there any contributors you'd like to mention? If so, please state:"
+},{
+  type: "input",
+  name: "tests",
+  message: "Any comments on how to test?"
+},{
+  type: "input",
+  name: "github",
+  message: "If a user has questions, what is your GitHub username?"
+},{
+  type: "input",
+  name: "email",
+  message: "If a user has questions, what is your email address?"
+},
   ])
   .then((answers) => {
     // Use user feedback for... whatever!!

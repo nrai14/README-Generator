@@ -34,27 +34,22 @@ The application is covered under the ${data.license} license.
 
 ## Contributing
 
+${data.contributing}
+
 
 ## Tests
+
+${data.tests}
 
 
 ## Questions 
 
+If you have any questions, please feel free to reach out:
+* GitHub username: ${data.github} (https://github.com/${data.github})  
+* Email address: ${data.email}
 
 
 
-
-Github handles:
-1. [sanjana-1604](https://github.com/sanjana-1604)
-2. [sabrina-martorelli](https://github.com/sabrina-martorelli)
-3. [nrai14](https://github.com/nrai14) 
-4. [lauralp92](https://github.com/lauralp92)
-
-
-
-## Deployed Link
-
-*Please add deployed link here*
   
   
   
