@@ -1,18 +1,27 @@
-# Module 11 Challenge: Professional README Generator
+# Professional README Generator
 
-## Your Task
+## Overview
 
-When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions—this last part increases the likelihood that other developers will contribute to the success of the project. 
+A key best practice when creating an open source project on GitHub is to have a high-quality README for the app. I created this app to help a user follow these best practices by allowing them to conveniently input the name of the app, what the app is for, how to use/install it, how to report issues and finally how to make contributions. This application was created using JavaScript, Node js and Inquirer. 
 
-You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+## Usage 
 
-Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Good README Guide](../../01-HTML-Git-CSS/04-Important/Good-README-Guide/README.md) as a reminder of everything that a high-quality, professional README should contain. 
+The following are required to use this application:
+
+* Node.js
+* Inquirer NPM Package (Version 8.2.5)
+* Clone this repository 
+
+You can quickly and easily create a README file by using a command-line application to generate one. 
+
 
 The application will be invoked by using the following command:
 
 ```bash
 node index.js
 ```
+
+You will be prompted to input data in order to generate your personalised README file.
 
 ## User Story
 
@@ -39,3 +48,26 @@ node index.js
     * When a user enters their email address then this is added to the section of the README entitled Questions, with instructions on how to reach them with additional questions
     * When a user clicks on the links in the **Table of Contents** then they are taken to the corresponding section of the README
 
+
+
+## Credits 
+
+https://www.npmjs.com/ - NPM Package Inquirer 
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide - Best practice guide for creating high-quality README 
+
+## License
+
+MIT License 
+
+## Contributing
+
+N/A
+
+## Questions
+
+Please contact me: nishadrai14@gmail.com
+
+## Links
+
+* Sample README -
+* Demo Video - 
