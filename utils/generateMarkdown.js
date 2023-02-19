@@ -10,13 +10,13 @@ ${data.description}
 
 ## Table of Contents 
 
-* [description](##description)
-* [installation] (##installation)
-* [usage] (##usage)
-* [license] (##license) ${generateBadge(data.license)}
-* [contributing] (##contributing)
-* [tests] (##tests)
-* [questions] (##questions) 
+* [Description](#description)
+* [Installation] (#installation)
+* [Usage] (#usage)
+* [License] (#license) ${generateBadge(data.license)}
+* [Contributing] (#contributing)
+* [Tests] (#tests)
+* [Questions] (#questions) 
 
 
 ## Installation
@@ -48,13 +48,8 @@ If you have any questions, please feel free to reach out:
 * GitHub username: ${data.github} (https://github.com/${data.github})  
 * Email address: ${data.email}
 
+  
 
-
-  
-  
-  
-  ;
-}
 `
 
 function generateBadge(license) {
