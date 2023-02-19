@@ -88,5 +88,5 @@ Please contact me:
 
 ## Links
 
-* Sample README -
-* Demo Video - 
+* Sample README - https://github.com/nrai14/README-Generator/blob/main/sampleREADME.md
+* Demo Video - https://drive.google.com/file/d/1hXX3q6K5T-JtnPeat4_VO4b42QfAqYBD/view?usp=sharing
